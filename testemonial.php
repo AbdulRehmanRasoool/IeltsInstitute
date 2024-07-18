@@ -1,226 +1,93 @@
-<!-- Start Testimonial Area -->
-<div class="testimonial-area pb-75 pt-75">
-            <div class="container">
-                <div class="section-title text-center m-auto">
-                    <h2>What Student’s Say</h2>
-                </div>
-                <div class="testimonial-slider-info-3">
-                    <div class="swiper testimonial-slider-3">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-6.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>John Smith</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-4.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>William Sekel</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-5.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>Jesonal Smith</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-6.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>John Smith</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-4.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>William Sekel</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-5.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>Jesonal Smith</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-6.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>John Smith</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-4.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>William Sekel</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-slider-item style-3">
-                                    <div class="user-list d-flex align-items-center justify-content-between">
-                                        <div class="user d-flex align-items-center">
-                                            <div class="image">
-                                                <img src="assets/img/testimonial/testimonial-5.jpg" alt="testimonial-image">
-                                            </div>
-                                            <div class="content">
-                                                <h3>Jesonal Smith</h3>
-                                                <span>Seema IELTS’s student</span>
-                                            </div>
-                                        </div>
-                                        <ul class="list-unstyled ps-0 star-icon">
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                            <li class="d-inline-block"><i class="flaticon-star-1"></i></li>
-                                        </ul>
-                                    </div>
-                                    <p>Universities value student who can think critically & solve problems. Reviewer may assess student ability analyze information, evaluate different perspectives.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-btn">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
+ <!--Testimonial Start-->
+ <section class="main-testimonial">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="testimonial-title">
+                <h2 class="h2-subtitle">Testimonial</h2>
+                <h2 class="h2-title">What Our Client Says About Us</h2>
+                <p>
+                  Proin et lacus eu odio tempor porttitor id vel augue. Vivamus
+                  volutpat vehicula sem, et imperdiet enim tempor id. Phasellus
+                  lobortis efficitur nisl eget vehicula. Donec viverra blandit
+                  nunc, nec tempor ligula ullamcorper venenatis.
+                </p>
+              </div>
             </div>
+            <div class="col-lg-6">
+              <div class="testimonial-slider">
+                <div class="testimonial-box">
+                  <p>
+                    &quot;Proin feugiat tortor non neque eleifend, at fermentum
+                    est elementum. Ut mollis leo odio vulputate rutrum. Nunc
+                    sagittis sit amet ligula ut eleifend. Mauris consequat
+                    mauris sit amet turpis commodo fermentum. Quisque consequat
+                    tortor ut nisl finibus&quot;.
+                  </p>
+                  <div class="testimonial-client">
+                    <div class="testimonial-client-img-box">
+                      <div class="testimonial-img">
+                        <img src="assets/images/client-1.jpg" alt="client" />
+                      </div>
+                    </div>
+                    <div class="testimonial-client-name">
+                      <h3 class="h3-title">Christine Rose</h3>
+                      <span>Customer</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-quote">
+                    <img src="assets/images/quote.png" alt="quote" />
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <p>
+                    &quot;Proin feugiat tortor non neque eleifend, at fermentum
+                    est elementum. Ut mollis leo odio vulputate rutrum. Nunc
+                    sagittis sit amet ligula ut eleifend. Mauris consequat
+                    mauris sit amet turpis commodo fermentum. Quisque consequat
+                    tortor ut nisl finibus&quot;.
+                  </p>
+                  <div class="testimonial-client">
+                    <div class="testimonial-client-img-box">
+                      <div class="testimonial-img">
+                        <img src="assets/images/client-2.jpg" alt="client" />
+                      </div>
+                    </div>
+                    <div class="testimonial-client-name">
+                      <h3 class="h3-title">Christine Rose</h3>
+                      <span>Customer</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-quote">
+                    <img src="assets/images/quote.png" alt="quote" />
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <p>
+                    &quot;Proin feugiat tortor non neque eleifend, at fermentum
+                    est elementum. Ut mollis leo odio vulputate rutrum. Nunc
+                    sagittis sit amet ligula ut eleifend. Mauris consequat
+                    mauris sit amet turpis commodo fermentum. Quisque consequat
+                    tortor ut nisl finibus&quot;.
+                  </p>
+                  <div class="testimonial-client">
+                    <div class="testimonial-client-img-box">
+                      <div class="testimonial-img">
+                        <img src="assets/images/client-3.jpg" alt="client" />
+                      </div>
+                    </div>
+                    <div class="testimonial-client-name">
+                      <h3 class="h3-title">Christine Rose</h3>
+                      <span>Customer</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-quote">
+                    <img src="assets/images/quote.png" alt="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- End Testimonial Area -->
+      </section>
+      <!--Testimonial End-->
