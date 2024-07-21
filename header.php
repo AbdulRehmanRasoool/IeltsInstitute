@@ -1,5 +1,9 @@
- <!-- Header Start -->
- <header class="site-header">
+<?php
+    $current_page = basename($_SERVER['PHP_SELF']);
+ ?>
+
+  <!-- Header Start -->
+  <header class="site-header">
      <!-- Top start -->
      <div class="header-top">
          <div class="container">
@@ -64,19 +68,24 @@
                                  <span></span>
                              </button>
                              <ul class="menu">
-                                 <li class="active"><a href="index.html">Home</a></li>
-                                 <li class=""><a href="index.html">Blogs</a></li>
-                                 <li class=""><a href="index.html">Courses</a></li>
-                                 <li class=""><a href="index.html">Ielts Writing Samples</a></li>
-                                 <li class="sub-items">
+                                 <li class="<?php echo($current_page == 'index.php') ? 'active' : '' ?>"><a href="index.php">Home</a></li>
+                                 <li class="<?php echo($current_page == 'blog.php') ? 'active' : '' ?>"><a href="blog.php">Blogs</a></li>
+                                 <li class="<?php echo($current_page == 'course.php') ? 'active' : '' ?>"><a href="course.php">Courses</a></li>
+                                 <li class="<?php echo($current_page == 'ieltswritingsample.php') ? 'active' : '' ?>"><a href="index.php">Ielts Writing Samples</a></li>
+                                 <li class="sub-items <?php echo($current_page == 'studyinuk.php' || $current_page == 'studyinusa.php' || $current_page == 'studyincanada.php' || $current_page == 'germany.php') || $current_page == 'studyinitaly.php' || $current_page == 'studyinsweden.php' || $current_page == 'studyinaustralia.php' ? 'active' : '' ?>">
                                  <a href="javascript:void(0);" title="StudyAbroad">Study Abroad</a>
                                      <ul class="sub-menu">
-                                         <li><a href="courses.html" title="StudyAbroad">Courses List</a></li>
-                                         <li><a href="course-detail.html" title="StudyAbroad">Courses Detail</a></li>
+                                         <li ><a href="studyinuk.php" title="StudyAbroad">Study In UK</a></li>
+                                         <li><a href="studyincanada.php" title="StudyAbroad">Study In Canada</a></li>
+                                         <li><a href="studyinaustralia.php" title="StudyAbroad">Study In Australia</a></li>
+                                         <li><a href="studyinusa.php" title="StudyAbroad">Study In America</a></li>
+                                         <li><a href="studyingermany.php" title="StudyAbroad">Study In Germany</a></li>
+                                         <li><a href="studyinitaly.php" title="StudyAbroad">Study In Italy</a></li>
+                                         <li><a href="studyinsweden.php" title="StudyAbroad">Study In Sweden</a></li>
                                      </ul>
                                 </li>
-                                 <li class=""><a href="index.html">Gallery</a></li>
-                                 <li class=""><a href="index.html">Contact Us</a></li>
+                                 <li class="<?php echo($current_page == 'gallery.php') ? 'active' : '' ?>"><a href="gallery.php">Gallery</a></li>
+                                 <li class="<?php echo($current_page == 'contact-us.php') ? 'active' : '' ?>"><a href="contact-us.php">Contact Us</a></li>
                              </ul>
                          </nav>
                      </div>
