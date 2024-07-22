@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="h1-title">Gallery</h1>
+                        <h1 class="h1-title">Sehrish Khalid </h1>
                     </div>
                 </div>
             </div>
@@ -71,9 +71,11 @@
                     <div class="col-lg-12">
                         <div class="banner-breadcrum">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="ieltswritingsample.php">Ielts Writing Samples</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li><a href="SehrishKhalid.php">Sehrish Khalid</a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,77 +84,63 @@
         </div>
         <!--Banner Breadcrum End-->
 
-        <!--Contact Us Start-->
+        <div id="butter">
+            <!--About Us Start-->
+<section class="main-about-us">
         <div class="container">
-                <div class="row mt-5">
-                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-                    </a>
+          <div class="row align-items-center">
+            <div class="col-lg-6 p-5">
+                <div class="about-img">
+                  <img src="assets/images/instructor-4.jpg" alt="about us" height="500px" />
                 </div>
             </div>
-        <!--Contact Us End-->
+            <div class="col-lg-6">
+              <div class="about-us-content">
+                <div class="about-us-title">
+                  <h2 class="h2-subtitle">Band score: 8.0</h2>
+                  <h2 class="h2-title">Sehrish Khalid</h2>
+                </div>
+                <p>
+                Miss seema’s excellent way of teaching and accurate techniques really helped me prepare for IELTS in a short span of time. I advise every one to be trained by her and follow her techniques.
 
+                </p>
+                <a href="ieltswritingsample.php" class="sec-btn">Explore More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About Us End-->
         <?php require 'cta.php' ?>
         <?php require 'footer.php' ?>
+</div>
 
-    </div>
-    <!--Smooth Scroll End-->
 
-    <!-- Scroll To Top Start -->
-    <a href="#main-banner" class="scroll-top" id="scroll-to-top">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-    </a>
-    <!-- Scroll To Top End-->
 
-    <?php require 'bubble-animation.php' ?>
-
-    <!-- Jquery JS Link -->
-    <script>
-        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
+            <!-- Jquery JS Link -->
     <script src="assets/js/jquery.min.js"></script>
 
-    <!-- Bootstrap JS Link -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS Link -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
 
-    <!-- Custom JS Link -->
-    <script src="assets/js/custom.js"></script>
+<!-- Custom JS Link -->
+<script src="assets/js/custom.js"></script>
 
-    <!-- Slick Slider JS Link -->
-    <script src="assets/js/slick.min.js"></script>
+<!-- Slick Slider JS Link -->
+<script src="assets/js/slick.min.js"></script>
 
-    <!-- Wow Animation JS -->
-    <script src="assets/js/wow.min.js"></script>
+<!-- Wow Animation JS -->
+<script src="assets/js/wow.min.js"></script>
 
-    <!--Banner Bg Animation JS-->
-    <script src="assets/js/bg-moving.js"></script>
+<!--Banner Bg Animation JS-->
+<script src="assets/js/bg-moving.js"></script>
 
-    <!--Smooth Scroll JS-->
-    <script src="assets/js/smooth-scroll.js"></script>
+<!--Magnific Popup JS-->
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/custom-magnific-popup.js"></script>
 
+<!--Smooth Scroll JS-->
+<script src="assets/js/smooth-scroll.js"></script>
 </body>
-
-<!-- Mirrored from shivaaythemes.in/educater-demo/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 12:01:57 GMT -->
-
 </html>

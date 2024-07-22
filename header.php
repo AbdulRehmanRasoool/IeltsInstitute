@@ -71,7 +71,7 @@
                                  <li class="<?php echo($current_page == 'index.php') ? 'active' : '' ?>"><a href="index.php">Home</a></li>
                                  <li class="<?php echo($current_page == 'blog.php') ? 'active' : '' ?>"><a href="blog.php">Blogs</a></li>
                                  <li class="<?php echo($current_page == 'course.php') ? 'active' : '' ?>"><a href="course.php">Courses</a></li>
-                                 <li class="<?php echo($current_page == 'ieltswritingsample.php') ? 'active' : '' ?>"><a href="index.php">Ielts Writing Samples</a></li>
+                                 <li class="<?php echo($current_page == 'ieltswritingsample.php') ? 'active' : '' ?>"><a href="ieltswritingsample.php">Ielts Writing Samples</a></li>
                                  <li class="sub-items <?php echo($current_page == 'studyinuk.php' || $current_page == 'studyinusa.php' || $current_page == 'studyincanada.php' || $current_page == 'germany.php') || $current_page == 'studyinitaly.php' || $current_page == 'studyinsweden.php' || $current_page == 'studyinaustralia.php' ? 'active' : '' ?>">
                                  <a href="javascript:void(0);" title="StudyAbroad">Study Abroad</a>
                                      <ul class="sub-menu">

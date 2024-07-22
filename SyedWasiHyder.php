@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="h1-title">Gallery</h1>
+                        <h1 class="h1-title">Syed Wasi Hyder </h1>
                     </div>
                 </div>
             </div>
@@ -71,9 +71,11 @@
                     <div class="col-lg-12">
                         <div class="banner-breadcrum">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="ieltswritingsample.php">Ielts Writing Samples</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li><a href="SyedWasiHyder.php">Syed Wasi Hyder</a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,77 +84,63 @@
         </div>
         <!--Banner Breadcrum End-->
 
-        <!--Contact Us Start-->
+        <div id="butter">
+            <!--About Us Start-->
+<section class="main-about-us">
         <div class="container">
-                <div class="row mt-5">
-                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-                    </a>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img">
+                  <img src="assets/images/Syed Wasi Hyder.png" alt="about us" height="500px"/>
                 </div>
             </div>
-        <!--Contact Us End-->
+            <div class="col-lg-6">
+              <div class="about-us-content">
+                <div class="about-us-title">
+                  <h2 class="h2-subtitle">Band score:7.5</h2>
+                  <h2 class="h2-title">Syed Wasi Hyder</h2>
+                </div>
+                <p>
+                It has been a wonderful journey to come to Seema’s IELTS Academy. I believe that Ms Seema (founder, CEO & trainer) is one of the most hard-working trainers I have ever met for IELTS. Most importantly, her way of teaching for all the IELTS (4) components are tremendously amazing. Hope she will succeed more in the future. I must say  IELTS preparation at Seema’s IELTS Academy is seldom comparable with any others. Techniques according to the band descriptors, practice with full supervision, mock test and time saving techniques on the day of exam are accurately taught there. My advise is that instead of wasting your money in real exam without preparation or self preparation, join Seema’s IELTS Academy. God bless you! 
 
+                </p>
+                <a href="ieltswritingsample.php" class="sec-btn">Explore More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About Us End-->
         <?php require 'cta.php' ?>
         <?php require 'footer.php' ?>
+</div>
 
-    </div>
-    <!--Smooth Scroll End-->
 
-    <!-- Scroll To Top Start -->
-    <a href="#main-banner" class="scroll-top" id="scroll-to-top">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-    </a>
-    <!-- Scroll To Top End-->
 
-    <?php require 'bubble-animation.php' ?>
-
-    <!-- Jquery JS Link -->
-    <script>
-        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
+            <!-- Jquery JS Link -->
     <script src="assets/js/jquery.min.js"></script>
 
-    <!-- Bootstrap JS Link -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS Link -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
 
-    <!-- Custom JS Link -->
-    <script src="assets/js/custom.js"></script>
+<!-- Custom JS Link -->
+<script src="assets/js/custom.js"></script>
 
-    <!-- Slick Slider JS Link -->
-    <script src="assets/js/slick.min.js"></script>
+<!-- Slick Slider JS Link -->
+<script src="assets/js/slick.min.js"></script>
 
-    <!-- Wow Animation JS -->
-    <script src="assets/js/wow.min.js"></script>
+<!-- Wow Animation JS -->
+<script src="assets/js/wow.min.js"></script>
 
-    <!--Banner Bg Animation JS-->
-    <script src="assets/js/bg-moving.js"></script>
+<!--Banner Bg Animation JS-->
+<script src="assets/js/bg-moving.js"></script>
 
-    <!--Smooth Scroll JS-->
-    <script src="assets/js/smooth-scroll.js"></script>
+<!--Magnific Popup JS-->
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/custom-magnific-popup.js"></script>
 
+<!--Smooth Scroll JS-->
+<script src="assets/js/smooth-scroll.js"></script>
 </body>
-
-<!-- Mirrored from shivaaythemes.in/educater-demo/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 12:01:57 GMT -->
-
 </html>

@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="h1-title">Gallery</h1>
+                        <h1 class="h1-title">Ielts Writing Samples </h1>
                     </div>
                 </div>
             </div>
@@ -82,54 +82,94 @@
         </div>
         <!--Banner Breadcrum End-->
 
-        <!--Contact Us Start-->
+        <!--Smooth Scroll Start-->
+    <div id="butter">
+<!--Instructor Start-->
+<section class="main-instructor">
         <div class="container">
-                <div class="row mt-5">
-                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-                    </a>
-                </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="instructor-title">
+                <h2 class="h2-subtitle">Ielts Writing Samples</h2>
+                <h2 class="h2-title">Our Writing Samples</h2>
+              </div>
             </div>
-        <!--Contact Us End-->
-
-        <?php require 'cta.php' ?>
-        <?php require 'footer.php' ?>
-
+          </div>
+          <div class="row instructor-slider">
+            <div class="col-lg-3">
+              <div class="instructor-box">
+                <div class="instructor-img">
+                  <a href="Dr.IfirahSultana.php"><img src="assets/images/Dr. Ifirah Sultana.png" height="310px" width="150px" alt="Instructor" /></a>
+                  
+                </div>
+                <a href="instructor-detail.html"
+                  ><h3 class="h3-title">Dr. Ifirah Sultana:</h3></a
+                >
+                <p>Band score: 8.0</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="instructor-box">
+                <div class="instructor-img">
+                  <a href="SyedWasiHyder.php">
+                  <img src="assets/images/Syed Wasi Hyder.png" height="310px" width="150px" alt="Instructor" />
+                  </a>
+                </div>
+                <a href="instructor-detail.html"
+                  ><h3 class="h3-title">Syed Wasi Hyder</h3></a
+                >
+                <p>Band score:7.5</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="instructor-box">
+                <div class="instructor-img">
+                <a href="ShehzadAzizJiskani.php">
+                <img src="assets/images/Shehzad Aziz Jiskani.png" height="310px" width="150px" alt="Instructor" />
+                </a>
+                </div>
+                <a href="instructor-detail.html"
+                  ><h3 class="h3-title">Shehzad Aziz Jiskani</h3></a
+                >
+                <p>Band score: 7.5</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="instructor-box">
+                <div class="instructor-img">
+                <a href="SehrishKhalid.php">
+                  <img src="assets/images/instructor-4.jpg" alt="Instructor" />
+                  </a>
+                </div>
+                <a href="instructor-detail.html"
+                  ><h3 class="h3-title">Sehrish Khalid</h3></a
+                >
+                <p>band score:8.0</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="instructor-box">
+                <div class="instructor-img">
+                <a href="AimanNazir.php">
+                  <img src="assets/images/instructor-5.jpg" alt="Instructor" />
+                  </a>
+                </div>
+                <a href="instructor-detail.html"
+                  ><h3 class="h3-title">Aiman Nazir</h3></a
+                >
+                <p>band score:7.5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Instructor End-->
+      <?php require 'cta.php' ?>
+      <?php require 'footer.php' ?>
     </div>
     <!--Smooth Scroll End-->
 
-    <!-- Scroll To Top Start -->
-    <a href="#main-banner" class="scroll-top" id="scroll-to-top">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-    </a>
-    <!-- Scroll To Top End-->
-
-    <?php require 'bubble-animation.php' ?>
-
     <!-- Jquery JS Link -->
-    <script>
-        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
     <script src="assets/js/jquery.min.js"></script>
 
     <!-- Bootstrap JS Link -->
@@ -148,11 +188,11 @@
     <!--Banner Bg Animation JS-->
     <script src="assets/js/bg-moving.js"></script>
 
+    <!--Magnific Popup JS-->
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/custom-magnific-popup.js"></script>
+
     <!--Smooth Scroll JS-->
     <script src="assets/js/smooth-scroll.js"></script>
-
-</body>
-
-<!-- Mirrored from shivaaythemes.in/educater-demo/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 12:01:57 GMT -->
-
+  </body>
 </html>
