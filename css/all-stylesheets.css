@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** Bootstrap v3.3.6 *****/
+@import url("bootstrap/bootstrap.min.css");
+
+/***** Special-Classes *****/
+@import url("special-classes.css");
+
+/***** Headings *****/
+@import url("headings.css");
+
+/***** Buttons *****/
+@import url("button.css");
+
+/***** Preloader *****/
+@import url("preloader.css");
+
+/***** Gallery *****/
+@import url("projects/projects.css");
+
+/***** carousel *****/
+@import url("carousel/owl.carousel.css");
+
+/* Animation Style */
+@import url("animation.css");
+
+/***** Custom-Layout *****/
+@import url("custom-layout.css");
+
+/***** Custom Fonts *****/
+@import url("fonts.css");
+
+/***** Lightbox *****/
+@import url("lightbox/lightbox.css");
+
+/***** Typography *****/
+@import url("typography.css");
+
+/***** FontAwesome *****/
+@import url("../fonts/font-awesome/css/font-awesome.css");
+
+/***** Mobile *****/
+@import url("mobile.css");
+

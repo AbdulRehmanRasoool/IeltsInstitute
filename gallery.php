@@ -1,158 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $name = htmlspecialchars(strip_tags(trim($_POST["name"])));
+    $email = htmlspecialchars(strip_tags(trim($_POST["email"])));
+    $course = htmlspecialchars(strip_tags(trim($_POST["course"])));
+    $comments = htmlspecialchars(strip_tags(trim($_POST["comments"])));
+
+    $to = "abdulrehmanrasoool@gmail.com"; // Replace with the admin's email address
+    $subject = "Contact Us Form Submission from $name";
+    $body = "Name: $name\n";
+    $body .= "Email: $email\n";
+    $body .= "Course: $course\n";
+    $body .= "Message:\n$comments\n";
+
+    $headers = "From: noreply@yourdomain.com\r\n"; // Replace with a valid sender email address
+    $headers .= "Reply-To: $email\r\n";
+
+    // Prevent email header injection
+    $headers = preg_replace("/\r\n/", "\n", $headers);
+
+    // Send the email
+    if (mail($to, $subject, $body, $headers)) {
+        echo "Thank you for contacting us. We will get back to you shortly.";
+    } else {
+        echo "There was an error sending your message. Please try again later.";
+    }
+} else {
+    echo "Invalid request method.";
+}
+?>
+
+<!doctype html>
+<html>
 <head>
-    <title>Educater - Online Courses & Education HTML Template</title>
-    <meta name="keywords" content="Educater" />
-    <meta name="description" content="Educater" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    <!-- FavIcon CSS -->
-    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
-
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <!--Google Fonts CSS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-
-    <!--Font Awesome Icon CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-
-    <!-- Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-
-    <!-- Wow Animation CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
-
-    <!-- Main Style CSS  -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Master</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
+    <style>
+        #styledSelect option {
+            background-color: #fff;
+            font-size: 16px;
+            color: #ce5757;
+            font-family: Arial, sans-serif;
+            border: none;
+            outline: none;
+        }
+    </style>
 </head>
 
-<body>
-
-    <?php require 'loader.php' ?>
+<body class="contact">
     <?php require 'header.php' ?>
-
-    <!--Smooth Scroll Start-->
-    <div id="butter">
-
-        <!--Banner Start-->
-        <section class="main-banner-in">
-            <span class="shape-1 animate-this">
-                <img src="assets/images/shape-1.png" alt="shape">
-            </span>
-            <span class="shape-2 animate-this">
-                <img src="assets/images/shape-2.png" alt="shape">
-            </span>
-            <span class="shape-3 animate-this">
-                <img src="assets/images/shape-3.png" alt="shape">
-            </span>
-            <span class="shape-4 animate-this">
-                <img src="assets/images/shape-4.png" alt="shape">
-            </span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="h1-title">Gallery</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Banner End-->
-
-        <!--Banner Breadcrum Start-->
-        <div class="main-banner-breadcrum">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="banner-breadcrum">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Banner Breadcrum End-->
-
-        <!--Contact Us Start-->
+    <div class="sub-banner-con contact-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="container">
-                <div class="row mt-5">
-                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-                    </a>
-                </div>
+            <div class="row">
+                <aside class="sub-banner text-center">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">contact us</li>
+                    </ol>
+                    <h1>contact us</h1>
+                    <!--sub-banner-->
+                </aside>
+                <!--row-->
             </div>
-        <!--Contact Us End-->
-
-        <?php require 'cta.php' ?>
-        <?php require 'footer.php' ?>
-
+            <!--container-->
+        </div>
+        <!--sub-banner-con-->
     </div>
-    <!--Smooth Scroll End-->
+    <div class="padding-outer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+            <div class="row">
+              
+<div class="padding-outer portfolio-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="row text-center">
+    <h2>beautiful &amp; useful portfolio</h2>
+    <div id="project-filter-box" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="project-filter-links current" id="all">All</div>
+      <div class="project-filter-links" id="webdesign">webdesign</div>
+      <div class="project-filter-links" id="Branding">Branding</div>
+      <div class="project-filter-links" id="photo">photo</div>
+      <div class="project-filter-links" id="videos">videos</div>
+    </div>
+    <div id="gallery-content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div id="gallery-content-center">
+        <ul>
+          <li class="all webdesign Branding col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <figure><img src="images/projects/project-img1.jpg" alt="" /></figure>
+            <aside class="project-infobox red-bg pull-left text-center">
+              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
+              <h3 class="bold-font">Lakewoods</h3>
+              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
+              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
+            </aside>
+          </li>
+          <li class="all Branding photo col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <figure><img src="images/projects/project-img2.jpg" alt="" /></figure>
+            <aside class="project-infobox red-bg pull-left text-center">
+              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
+              <h3 class="bold-font">Lakewoods</h3>
+              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
+              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
+              <!--project-infobox--> 
+            </aside>
+            <!--all--> 
+          </li>
+          <li class="all photo webdesign col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <figure><img src="images/projects/project-img3.jpg" alt="" /></figure>
+            <aside class="project-infobox red-bg pull-left text-center">
+              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
+              <h3 class="bold-font">Lakewoods</h3>
+              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
+              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
+              <!--project-infobox--> 
+            </aside>
+            <!--all--> 
+          </li>
+          <li class="all webdesign videos col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <figure><img src="images/projects/project-img4.jpg" alt="" /></figure>
+            <aside class="project-infobox red-bg pull-left text-center">
+              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
+              <h3 class="bold-font">Lakewoods</h3>
+              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
+              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
+              <!--project-infobox--> 
+            </aside>
+            <!--all--> 
+          </li>
+          <li class="all videos Branding col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <figure><img src="images/projects/project-img5.jpg" alt="" /></figure>
+            <aside class="project-infobox red-bg pull-left text-center">
+              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
+              <h3 class="bold-font">Lakewoods</h3>
+              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
+              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
+              <!--project-infobox--> 
+            </aside>
+            <!--all--> 
+          </li>
+          <li class="all photo videos col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <figure><img src="images/projects/project-img6.jpg" alt="" /></figure>
+            <aside class="project-infobox red-bg pull-left text-center">
+              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
+              <h3 class="bold-font">Lakewoods</h3>
+              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
+              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
+            </aside>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+            <!--container-->
+        </div>
+        <!--padding-outer-->
+    </div>
+    <?php require 'footer.php' ?>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap/bootstrap.js"></script>
 
-    <!-- Scroll To Top Start -->
-    <a href="#main-banner" class="scroll-top" id="scroll-to-top">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-    </a>
-    <!-- Scroll To Top End-->
-
-    <?php require 'bubble-animation.php' ?>
-
-    <!-- Jquery JS Link -->
-    <script>
-        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- Bootstrap JS Link -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-
-    <!-- Custom JS Link -->
-    <script src="assets/js/custom.js"></script>
-
-    <!-- Slick Slider JS Link -->
-    <script src="assets/js/slick.min.js"></script>
-
-    <!-- Wow Animation JS -->
-    <script src="assets/js/wow.min.js"></script>
-
-    <!--Banner Bg Animation JS-->
-    <script src="assets/js/bg-moving.js"></script>
-
-    <!--Smooth Scroll JS-->
-    <script src="assets/js/smooth-scroll.js"></script>
-
+    <!-- Form Submission -->
+    <script src="js/form-submission/validate.js"></script>
+    <script src="js/form-submission/contact-form.js"></script>
+    <!-- LAZY EFFECTS Scripts -->
+    <script type="text/javascript" src="js/jquery.unveilEffects.js"></script>
+    <!-- Filter gallery -->
+    <script src="js/projects/isotope.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </body>
-
-<!-- Mirrored from shivaaythemes.in/educater-demo/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 12:01:57 GMT -->
-
 </html>

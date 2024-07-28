@@ -1,140 +1,174 @@
-<!--Course Category Start-->
-<section class="main-course-category">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="course-category-title">
-                <h2 class="h2-subtitle">What We Offer</h2>
-                <h2 class="h2-title">Explore Our Services</h2>
+<div class="padding-outer grey-bg col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="container">
+    <div class="row text-center">
+      <h2>our services</h2>
+      <div class="spacer"></div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box">
+              <div>
+                <figure class="image-holder service-icon1"></figure>
+                <h3>Graphic Design</h3>
               </div>
-            </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon1"></figure>
+                    <h3>Graphic Design</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
+                </div>
+              </div>
+            </aside>
           </div>
-          <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="course-category-box">
-                <div class="course-category-content">
-                  <a href="courses.html"
-                  ><h3 class="h3-title">Learn CSS/PCS</h3></a>
-                  <p>3 Months</p>
-                </div>
-                <div class="course-category-icon">
-                  <img
-                    class="dis-yes"
-                    src="assets/images/course-category-icon-1.png"
-                    alt="icon"
-                  />
-                  <img
-                    class="dis-no"
-                    src="assets/images/course-category-icon-1-w.png"
-                    alt="icon"
-                  />
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box service-box2">
+              <div>
+                <figure class="image-holder service-icon2"></figure>
+                <h3>Video Production</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon2"></figure>
+                    <h3>Video Production</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="course-category-box">
-                <div class="course-category-content">
-                  <a href="courses.html"
-                    ><h3 class="h3-title">English Language</h3></a
-                  >
-                  <p>6 Months</p>
-                </div>
-                <div class="course-category-icon">
-                  <img
-                    class="dis-yes"
-                    src="assets/images/course-category-icon-2.png"
-                    alt="icon"
-                  />
-                  <img
-                    class="dis-no"
-                    src="assets/images/course-category-icon-2-w.png"
-                    alt="icon"
-                  />
+            </aside>
+          </div> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box">
+              <div>
+                <figure class="image-holder service-icon3"></figure>
+                <h3>Web Design</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon3"></figure>
+                    <h3>Web Design</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="course-category-box">
-                <div class="course-category-content">
-                  <a href="courses.html"
-                    ><h3 class="h3-title">IELTS/TOEFL</h3></a
-                  >
-                  <p>1 Month</p>
-                </div>
-                <div class="course-category-icon">
-                  <img
-                    class="dis-yes"
-                    src="assets/images/course-category-icon-3.png"
-                    alt="icon"
-                  />
-                  <img
-                    class="dis-no"
-                    src="assets/images/course-category-icon-3-w.png"
-                    alt="icon"
-                  />
+            </aside>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box service-box2">
+              <div>
+                <figure class="image-holder service-icon8"></figure>
+                <h3>Marketing</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon8"></figure>
+                    <h3>Marketing</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="course-category-box">
-                <div class="course-category-content">
-                  <a href="courses.html"
-                    ><h3 class="h3-title">Study Abroad</h3></a>
-                </div>
-                <div class="course-category-icon">
-                  <img
-                    class="dis-yes"
-                    src="assets/images/course-category-icon-4.png"
-                    alt="icon"
-                  />
-                  <img
-                    class="dis-no"
-                    src="assets/images/course-category-icon-4-w.png"
-                    alt="icon"
-                  />
+            </aside>
+          </div> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box">
+              <div>
+                <figure class="image-holder service-icon4"></figure>
+                <h3>Branding Design</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon4"></figure>
+                    <h3>Branding Design</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="course-category-box">
-                <div class="course-category-content">
-                  <a href="courses.html"
-                    ><h3 class="h3-title">Visa Consultancy</h3></a>
+            </aside>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box service-box2">
+              <div>
+                <figure class="image-holder service-icon5"></figure>
+                <h3>Illustration</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon5"></figure>
+                    <h3>Illustration</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
+                  <!--service-innerbox--> 
                 </div>
-                <div class="course-category-icon">
-                  <img
-                    class="dis-yes"
-                    src="assets/images/course-category-icon-5.png"
-                    alt="icon"
-                  />
-                  <img
-                    class="dis-no"
-                    src="assets/images/course-category-icon-5-w.png"
-                    alt="icon"
-                  />
+                <!--hidebox--> 
+              </div>
+              <!--service-box--> 
+            </aside>
+            <!--col--> 
+          </div>
+          <!--row--> 
+        </div>
+        <!--col--> 
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box">
+              <div>
+                <figure class="image-holder service-icon6"></figure>
+                <h3>Photography</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon6"></figure>
+                    <h3>Photography</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="course-category-box">
-                <div class="course-category-content">
-                  <a href="courses.html"><h3 class="h3-title">Career Counceling</h3></a>
-                </div>
-                <div class="course-category-icon">
-                  <img
-                    class="dis-yes"
-                    src="assets/images/course-category-icon-6.png"
-                    alt="icon"
-                  />
-                  <img
-                    class="dis-no"
-                    src="assets/images/course-category-icon-6-w.png"
-                    alt="icon"
-                  />
+            </aside>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <aside class="service-box service-box2">
+              <div>
+                <figure class="image-holder service-icon7"></figure>
+                <h3>brochure design</h3>
+              </div>
+              <div class="hidebox">
+                <div class="service-innerbox red-bg text-left">
+                  <div>
+                    <figure class="image-holder service-icon7"></figure>
+                    <h3>brochure design</h3>
+                    <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur adipisici urabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec...</p>
+                    <div class="readmore"><a href="#"></a></div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
-      </section>
-      <!--Course Category End-->
+      </div>
+    </div>
+  </div>
+</div>

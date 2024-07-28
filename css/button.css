@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-primary,button{
+	line-height:14px;
+	border-radius:30px;
+	border-color:#333431;
+	background-color:#333431;
+	text-transform:uppercase;
+    font-family: 'montserratbold';
+}
+.btn-primary a,button{
+	color:#fff;
+	display:block;
+	padding:18px 29px;
+}
+.btn-primary:hover,button{
+	text-decoration:none;
+	background-color:#c13c3c;
+	border-color:#c13c3c;
+}
+.btn-primary a:hover{
+	color:#fff;
+	text-decoration:none;
+}

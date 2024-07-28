@@ -1,0 +1,595 @@
+@media screen and (max-width: 1199px){
+.banner{
+	height:650px;
+}
+.banner-img {
+	margin:0;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+}
+.banner-img img{
+	width:100%
+}
+.small-textouter figure img{
+	width:100%;
+}
+.skills-bar{
+	width:48%;
+}
+.small-textbox {
+    left: 0;
+    right: 0;
+    top: 90px;
+    margin: 0 auto;
+    position: absolute;
+}
+.small-textbox a{
+	min-height:auto;
+	padding:25px 0;
+}
+.portfolio-box .project-infobox{
+	padding:18px;
+}
+.team-profile-info{
+	height:40px;
+	left:0;
+	bottom:0;
+	position:relative;
+	background:#eaeae6;
+}
+.team-profile-info h4{
+	bottom:0;
+	right:0;
+	padding:13px 0;
+	position:relative;
+}
+.team-profile-info > div::before{
+	display:none;
+}
+.team-profile-info > div{
+	position:absolute;
+}
+.team-profile-info > div{
+	left:0;
+	top:-195px
+}
+.skill-box {
+    padding: 50px 0 50px 20px;
+}
+.partners{
+	padding:40px 0;
+}
+.msg-form{
+	padding:34px 12px;
+}
+.msg-form h2{
+	min-width:auto;
+}
+.footer-rt .sitemap{
+	width:50%;
+}
+.copyright-area{
+	margin:-48px 0 0;
+}
+/*************ACCORDION AND TOGGLE*************/
+#accordion-panel .panel-title,#accordion-panel2 .panel-title {
+	font-size:13px;
+}
+/**************BLOG*************/
+.tags a{
+	margin:5px 1px 0 0;
+}
+/**************BLOG POST**********/
+.white-box h3{
+	font-size:22px;
+}
+/************WORK************/
+#gallery-content2 .project-infobox .btn1{
+	float:left;
+}
+#gallery-content2 .project-infobox .btn1 a{
+	padding:12px 20px;
+}
+#gallery-content2 .project-infobox figure{
+	display:none;
+}
+#gallery-content2 .project-infobox img{
+	width:50%;
+}
+#gallery-content2 .project-infobox{
+	width:250px;
+	background-color:rgba(193,60,60,0.7);
+}
+}
+@media screen and (max-width: 991px){
+.logo{
+	text-align:center;
+	float:none !important;
+}
+.social-icons{
+	margin:0;
+}
+.navbar-default{
+	margin:26px 0 0;
+}
+.banner {
+    height: 550px;
+}
+.banner h1 span.small{
+	font-size:65px;
+	line-height:60px;
+}
+.banner h1{
+	font-size:95px;
+	line-height:95px;
+}
+.banner .heading-caption{
+	font-size:12px;
+}
+.small-textouter{
+	padding:0;
+	margin:10px 0;
+}
+.small-textbox{
+	min-height:170px;
+}
+.small-textouter figure{
+	float:none !important
+}
+.service-box2{
+	margin:0 0 30px;
+}
+.team-profile-info > div{
+	top:-176px;
+}
+#project-filter-box{
+	margin:0 0 20px;
+}
+.padding-outer {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.padding-inner {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.footer-lt,.sitemap {
+	display:none;
+}
+.copyright-area{
+	margin:0;
+	text-align:center;
+	width:100%;
+}
+.copyright-area .social-icons{
+	width:100%
+}
+.copyright-area .social-icons li{
+	float:none;
+	display:inline-block;
+}
+/****************ABOUT*****************/
+.sub-banner-con{
+	height:300px;
+}
+.sub-banner {
+    padding: 229px 0 0;
+}
+.sub-banner h1 {
+    font-size: 62px;
+    line-height: 52px;
+}
+/*************ANIMATIONS***********/
+.image-container{
+	margin:0 0 10px;
+}
+/**************BLOG**************/
+.sidebar{
+	margin:20px 0 0;
+}
+.post-btn a{
+	font-size:12px;
+}
+.tags a{
+	margin:5px 5px 0 0;
+}
+.meta ul li{
+	margin:0 5px 0 0;
+}
+.meta ul li a{
+	font-size:13px;
+}
+.blog-post-box{
+	padding-left:15px;
+	border:none;
+}
+.blog-post-box .post-img .date-tag{
+	top:-20px;
+	left:-4px;
+}
+.blog-post-info .social-icons li{
+	margin:0 0 0 2px;
+}
+/*************SERVICES**************/
+.spacer2{
+	display:none;
+}
+.services-details {
+    height: auto;
+    margin: 10px 0;
+    padding: 15px;
+}
+.choose-box{
+    margin: 10px 0;
+}
+.any-service h2 br,.choose-box h3 span br{
+	display:none;
+}
+}
+@media screen and (max-width: 767px){
+.banner {
+    height: auto;
+    padding: 50px 0;
+}
+.banner h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+.banner h1 span.small {
+    font-size: 50px;
+    line-height: 48px;
+}
+.banner .heading-caption{
+	margin:0 0 20px;
+}
+.navbar-default,.navbar-nav{
+	margin:0;
+	padding-top:20px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border:none;
+}
+.navbar-collapse.in{
+	overflow-y:visible
+}
+.navbar-default .navbar-nav > .active > a:hover::after, .navbar-default .navbar-nav > li > a:hover::after, .navbar-default .navbar-nav > .active > a::after,.navbar-default .navbar-nav > .active > a:hover::after, .navbar-default .navbar-nav > li > a:hover::after, .navbar-default .navbar-nav > .active > a::after{
+	display:none;
+}
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus{
+	box-shadow:none;
+}
+nav{
+	width:100%;
+}
+.navbar-nav > li.dropdown.open .dropdown-menu::before{
+	display:none;
+}
+.collapsing,.navbar-collapse{
+	z-index:10;
+	width:100%;
+	background-color:#333431;
+	position:absolute;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+}
+.navbar-nav > li > .dropdown-menu ul{
+	padding:0
+}
+.navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > li > a:hover:after, .navbar-default .navbar-nav > .open > a:hover:after, .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .open > a:after, .navbar-default .navbar-nav > .open > a:focus:after{
+	display:none;
+}
+.navbar-nav > li > .dropdown-menu{
+	padding:0;
+}
+.navbar-nav > li > .dropdown-menu ul li a i,.navbar-nav > li > .dropdown-menu ul li a:hover{
+	color:#c13c3c;
+}
+.social-icons{
+	margin:0 0 20px 20px;
+	float:left !important
+}
+.blog-post-info .social-icons{
+	float:right !important;
+	margin:0;
+}
+.project-filter-links{
+	margin:0 8px;
+}
+.social-icons li a{
+	color:#fff;
+}
+.project-infobox figure{
+	margin:90px auto 25px;
+}
+.team-profile-info > div{
+	top:-158px;
+	width:100%;
+}
+.footer{
+	padding:40px 0;
+}
+/*************ANIMATIONS***********/
+.image-container img{
+	margin:0 auto;
+}
+/****************CONTACT****************/
+.contact-info{
+	padding-left:15px;
+}
+/**************ERROR***************/
+.login-box{
+	width:100%
+}
+.error-box h1{
+	line-height:150px;
+	font-size:140px;
+}
+.login-box h3{
+	font-size:15px;
+	line-height:15px;
+}
+.login-box h2{
+	font-size:56px;
+	line-height:60px;
+}
+.login-copyright li{
+	padding:0 6px;
+}
+.login-box ul li{
+	margin:0 2px;
+}
+}
+@media screen and (max-width: 667px){
+.banner-img{
+	display:none;
+}
+#project-filter-box{
+	margin:0;
+}
+.project-filter-links{
+	margin:0;
+	padding:0 20px
+}
+h2{
+	min-width:auto;
+}
+.skill-box{
+	padding:50px 20px;
+}
+/**************BLOG**********/
+.blog-post-info .social-icons{
+	width:100%;
+}
+.blog-text h3{
+	font-size:22px;
+	line-height:22px;
+	margin:10px 0;
+}
+/**************BLOG POST**********/
+.white-box{
+	padding:20px;
+}
+.comments-outer-box{
+	padding:0;
+}
+}
+@media screen and (max-width: 600px){
+.project-infobox figure{
+	margin:40px auto 25px
+}
+/****************ABOUT*****************/
+.sub-banner-con {
+    height: 250px;
+}
+.sub-banner {
+    padding: 191px 0 0;
+}
+.sub-banner h1 {
+    font-size: 47px;
+    line-height: 40px;
+}
+/**************BLOG POST**********/
+.comments-reply {
+    margin-left: 65px;
+}
+.white-box .contact-form ul li {
+    float: left;
+    margin: 0 0 10px;
+    width: 100%;
+}
+.white-box .contact-form ul li:last-child{
+	margin:0;
+}
+.contact-form .btn1{
+	padding:14px 20px;
+}
+/****************CONTACT****************/
+#contact-map{
+	height:300px;
+}
+.contact-info ul li{
+	font-size:14px;
+	margin:0 0 10px;
+	padding:0 0 0 26px;
+}
+/***************SERVICES**************/
+.any-service h2 {
+    font-size: 16px;
+    line-height: 18px;
+}
+}
+@media screen and (max-width: 480px){
+.banner h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+.banner h1 span.small {
+    font-size: 40px;
+    line-height: 40px;
+}
+.btn-primary a, button {
+    padding: 16px 18px;
+}
+h2{
+	padding:0 0 15px;
+	margin:0 0 15px;
+}
+.project-filter-links::before{
+	display:none;
+}
+.project-filter-links{
+	padding:0 13px;
+}
+.project-infobox figure{
+	margin:25px auto 10px
+}
+.skills-bar .progress .value{
+	font-size:16px;
+}
+.skills-bar .prog-text{
+	font-size:12px;
+	margin:0 0 5px;
+}
+.project-infobox p{
+	display:none;
+}
+.team-profile-info > div{
+	top:-177px;
+}
+/****************ABOUT*****************/
+.sub-banner-con{
+	height:200px;
+}
+.sub-banner {
+    padding: 141px 0 0;
+}
+/**************BLOG POST**********/
+.comments-box {
+	text-align:center;
+}
+.comments-box figure{
+	width:100%;
+	margin:0 auto 10px;
+}
+.comments-box .pull-right{
+	width:100%;
+}
+.comments-reply{
+	margin-left:0;
+}
+.comments-box > div .btn1,.comments-box > div .btn2{
+	float:none !important;
+	display:inline-block;
+}
+/****************CONTACT****************/
+#contact-map{
+	height:250px;
+}
+/**************ERROR***************/
+.login-box ul li{
+	font-size:13px
+}
+.login-box h2{
+	font-size:45px;
+	line-height:50px;
+}
+.login-box h3{
+	font-size:12px;
+}
+.error-box h1 {
+    font-size: 120px;
+    line-height: 110px;
+}
+/***********WORK***********/
+#gallery-content2 .project-infobox p{
+	display:block;
+}
+.pagination{
+	display:none;
+}
+}
+@media screen and (max-width: 375px){
+.banner h1 {
+	margin:0 0 5px;
+    font-size: 55px;
+    line-height: 54px;
+}
+.banner h1 span.small{
+	font-size:34px;
+}
+.small-textbox{
+	top:55px;
+}
+h2{
+	font-size:18px;
+}
+.project-infobox figure{
+	margin:0 auto 5px
+}
+.skills-bar {
+    margin: 0 0 32px;
+    width: 100%;
+}
+/*************ACCORDION AND TOGGLE*************/
+.sub-banner-con2 .sub-banner h1 {
+    font-family: "montserratsemi_bold";
+    font-size: 38px;
+    line-height: 40px;
+}
+/**************BLOG**********/
+.blog-text h3{
+	font-size:20px;
+}
+.meta ul li{
+	line-height:18px;
+	margin:0 0 5px;
+}
+.btn-primary a, button{
+	padding:12px 8px;
+	font-size:11px;
+}
+.login-box .checkbox label{
+	margin:0;
+	padding:0 3px;
+}
+.login-box .checkbox{
+	font-size:13px;
+}
+/***********SERVICES**************/
+.choose-box h3{
+	font-size:12px;
+}
+/***********WORK***********/
+#gallery-content2 .project-infobox p{
+	display:none;
+}
+#gallery-content2 .project-infobox{
+	padding-top:80px;
+}
+@media screen and (max-width: 320px){
+.small-textbox{
+	top:32px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

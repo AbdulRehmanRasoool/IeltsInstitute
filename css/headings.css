@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+h1,h2,h3,h4,h5{
+	margin:0;
+	text-transform:uppercase;
+}
+h2{
+	margin:0 0 20px;
+	padding:0 0 26px;
+	color:#333431;
+	font-size:22px;
+	line-height:24px;
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	min-width:470px;
+	box-shadow:0 -1px 0 #d0d0d0 inset;
+    font-family: 'montserratbold';
+}
+h3{
+	font-size:14px;
+	line-height:16px;
+	font-weight:normal;
+    font-family: 'montserratregular';
+}
