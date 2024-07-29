@@ -18,9 +18,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <li class="<?php echo ($current_page == 'index.php') ? 'active' : ''; ?>"><a href="index.php">Home</a></li>
                     <li class="<?php echo ($current_page == 'blogs.php') ? 'active' : ''; ?>"><a href="https://seemaielts.blogspot.com/" target="_blank">Blogs</a></li>
                     <li class="<?php echo ($current_page == 'writingsamples.php') ? 'active' : ''; ?>"><a href="writingsamples.php">Writing Samples</a></li>
-                    <li class="<?php echo ($current_page == 'writingsamples.php') ? 'active' : ''; ?>"><a href="writingsamples.php">Study Abroad</a></li>
-                    <li class="<?php echo ($current_page == 'courses.php') ? 'active' : ''; ?>"><a href="writingsamples.php">Courses</a></li>
-                    <li><a href="work.html">Gallery</a></li>
+                    <li class="<?php echo ($current_page == 'studyabroad.php') ? 'active' : ''; ?>"><a href="studyabroad.php">Study Abroad</a></li>
+                    <li class="<?php echo ($current_page == 'courses.php') ? 'active' : ''; ?>"><a href="courses.php">Courses</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
                     <li class="<?php echo ($current_page == 'contactus.php') ? 'active' : ''; ?>"><a href="contactus.php">Contact</a></li>
                   </ul>
                   <aside class="social-icons pull-right">

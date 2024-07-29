@@ -1,36 +1,3 @@
-<?php 
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    $name = htmlspecialchars(strip_tags(trim($_POST["name"])));
-    $email = htmlspecialchars(strip_tags(trim($_POST["email"])));
-    $course = htmlspecialchars(strip_tags(trim($_POST["course"])));
-    $comments = htmlspecialchars(strip_tags(trim($_POST["comments"])));
-
-    $to = "abdulrehmanrasoool@gmail.com"; // Replace with the admin's email address
-    $subject = "Contact Us Form Submission from $name";
-    $body = "Name: $name\n";
-    $body .= "Email: $email\n";
-    $body .= "Course: $course\n";
-    $body .= "Message:\n$comments\n";
-
-    $headers = "From: noreply@yourdomain.com\r\n"; // Replace with a valid sender email address
-    $headers .= "Reply-To: $email\r\n";
-
-    // Prevent email header injection
-    $headers = preg_replace("/\r\n/", "\n", $headers);
-
-    // Send the email
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Thank you for contacting us. We will get back to you shortly.";
-    } else {
-        echo "There was an error sending your message. Please try again later.";
-    }
-} else {
-    echo "Invalid request method.";
-}
-?>
-
 <!doctype html>
 <html>
 <head>
@@ -40,16 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Master</title>
     <link rel="icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
-    <style>
-        #styledSelect option {
-            background-color: #fff;
-            font-size: 16px;
-            color: #ce5757;
-            font-family: Arial, sans-serif;
-            border: none;
-            outline: none;
-        }
-    </style>
 </head>
 
 <body class="contact">
