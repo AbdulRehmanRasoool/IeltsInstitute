@@ -1,4 +1,5 @@
 <?php 
+include('smtp/PHPMailerAutoload.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -6,30 +7,123 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars(strip_tags(trim($_POST["email"])));
     $course = htmlspecialchars(strip_tags(trim($_POST["course"])));
     $comments = htmlspecialchars(strip_tags(trim($_POST["comments"])));
+    $subject = "Contact Us Form Submission";
 
-    $to = "abdulrehmanrasoool@gmail.com"; // Replace with the admin's email address
-    $subject = "Contact Us Form Submission from $name";
-    $body = "Name: $name\n";
-    $body .= "Email: $email\n";
-    $body .= "Course: $course\n";
-    $body .= "Message:\n$comments\n";
+    function smtp_mailer($to, $email , $subject, $name, $comments) {
+        $mail = new PHPMailer();
+        $mail->IsSMTP();
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = 'tls';
+        $mail->Host = "smtp.gmail.com";
+        $mail->Port = 587;
+        $mail->IsHTML(true);
+        $mail->CharSet = 'UTF-8';
+        $mail->Username = "abdulrehmanrasool4@gmail.com";
+        $mail->Password = "wamidlvcyxlmnenz";
+        $mail->SetFrom("abdulrehmanrasool4@gmail.com");
+        $mail->Subject = $subject;
 
-    $headers = "From: noreply@yourdomain.com\r\n"; // Replace with a valid sender email address
-    $headers .= "Reply-To: $email\r\n";
-
-    // Prevent email header injection
-    $headers = preg_replace("/\r\n/", "\n", $headers);
-
-    // Send the email
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Thank you for contacting us. We will get back to you shortly.";
-    } else {
-        echo "There was an error sending your message. Please try again later.";
+        $mail->Body = "
+            <!DOCTYPE html>
+            <html lang='en'>
+            <head>
+                <meta charset='UTF-8'>
+                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                <title>Contact Us Form Submission</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #c13c3c;
+                        color: #F3B225;
+                        padding: 20px;
+                    }
+                    .container {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        background-color: #8B0000;
+                        padding: 20px;
+                        border-radius: 8px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                    .header {
+                        text-align: center;
+                        padding: 10px 0;
+                        border-bottom: 1px solid #dddddd;
+                    }
+                    .header h1 {
+                        margin: 0;
+                        color: #fff;
+                    }
+                    .content {
+                        padding: 20px 0;
+                    }
+                    .content p {
+                        line-height: 1.6;
+                        color: #dddddd;
+                    }
+                    .details {
+                        display: block;
+                        margin: 20px auto;
+                        padding: 10px 20px;
+                        background-color: #8B0000;
+                        color: #8B0000;
+                        font-size: 16px;
+                        border-radius: 4px;
+                        text-align: left;
+                    }
+                    .footer {
+                        text-align: center;
+                        padding: 10px 0;
+                        border-top: 1px solid #dddddd;
+                        margin-top: 20px;
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                        
+                </style>
+            </head>
+            <body>
+                <div class='container'>
+                    <div class='header'>
+                        <h1>Contact Us Form Submission</h1>
+                    </div>
+                    <div class='content'>
+                        <p>Dear Seema Jan Muhammad,</p>
+                        <p>We have received a new inquiry through the Contact Us form on our website. Here are the details of the submission:</p>
+                        <div class='details'>
+                            <p><strong>Name:</strong> $name</p> \n
+                            <p><strong>Email:</strong> $email</p> \n
+                            <p><strong>Message:</strong> $comments</p>\n
+                        </div>
+                        <p>Thanks,</p>
+                        <p>IeltsInstitute Team</p>
+                    </div>
+                    <div class='footer'>
+                        <p>IeltsInstitute. All rights reserved.</p>
+                    </div>
+                </div>
+            </body>
+            </html>
+        ";
+        
+        $mail->AddAddress($to);
+        $mail->SMTPOptions = array('ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => false
+        ));
+        
+        if(!$mail->Send()) {
+            echo "<script>alert('There was an error sending your message. Please try again later.');</script>";
+        } else {
+            echo "<script>alert('Thank you for contacting us. We will get back to you shortly.');</script>";
+        }
     }
-} else {
-    echo "Invalid request method.";
+    
+    smtp_mailer("seema.jan.muhammad18@gmail.com", $email , $subject, $name, $comments);
 }
 ?>
+
 
 <!doctype html>
 <html>
@@ -40,6 +134,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Master</title>
     <link rel="icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
+        <!-- Include Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         #styledSelect option {
             background-color: #fff;
