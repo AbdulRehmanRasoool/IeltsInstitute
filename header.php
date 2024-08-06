@@ -25,9 +25,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                   </ul>
                   <aside class="social-icons pull-right">
                     <ul>
-                      <li><a href="#" class="fa fa-facebook"></a></li>
-                      <li><a href="#" class="fa fa-twitter"></a></li>
-                      <li><a href="#" class="fa fa-linkedin"></a></li>
+                      <li style="padding-left:10px"><a href="https://www.instagram.com/seemaieltsacademy/" target="Blank"><i class="fab fa-instagram"></i></a></li>
+                      <li style="padding-left:10px"><a href="https://www.youtube.com/@seemaieltsacademy/" target="Blank" ><i class="fab fa-youtube"></i></a></li>
+                      <li style="padding-left:10px"><a href="https://www.facebook.com/profile.php?id=61554331592567/" target="Blank" ><i class="fab fa-facebook"></i></a></li>
+                      <li style="padding-left:10px"><a href="https://www.blogger.com/blog/posts/6286256394388843629" target="Blank"><i class="fas fa-blog"></i></a></li>
                     </ul>
                   </aside>
                 </div>

@@ -7,26 +7,31 @@
     <title>Master</title>
     <link rel="icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
+    <!-- Include Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+.pagination a.active {
+    background-color: #c13c3c !important;
+    color: #fff;
+    border: 1px solid #fff;
+}
+</style>
 </head>
 
 <body class="contact">
     <?php require 'header.php' ?>
-    <div class="sub-banner-con contact-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="sub-banner-con contact-banner col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 100%;">
         <div class="container">
             <div class="row">
                 <aside class="sub-banner text-center">
                     <ol class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li class="active">contact us</li>
+                        <li class="active">Gallery</li>
                     </ol>
-                    <h1>contact us</h1>
-                    <!--sub-banner-->
+                    <h1 style="margin-bottom: 80px;">Gallery us</h1>
                 </aside>
-                <!--row-->
             </div>
-            <!--container-->
         </div>
-        <!--sub-banner-con-->
     </div>
     <div class="padding-outer col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="container">
@@ -35,104 +40,81 @@
 <div class="padding-outer portfolio-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
   <div class="row text-center">
     <h2>beautiful &amp; useful portfolio</h2>
-    <div id="project-filter-box" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div class="project-filter-links current" id="all">All</div>
-      <div class="project-filter-links" id="webdesign">webdesign</div>
-      <div class="project-filter-links" id="Branding">Branding</div>
-      <div class="project-filter-links" id="photo">photo</div>
-      <div class="project-filter-links" id="videos">videos</div>
-    </div>
     <div id="gallery-content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div id="gallery-content-center">
-        <ul>
-          <li class="all webdesign Branding col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <figure><img src="images/projects/project-img1.jpg" alt="" /></figure>
-            <aside class="project-infobox red-bg pull-left text-center">
-              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
-              <h3 class="bold-font">Lakewoods</h3>
-              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
-              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
-            </aside>
-          </li>
-          <li class="all Branding photo col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <figure><img src="images/projects/project-img2.jpg" alt="" /></figure>
-            <aside class="project-infobox red-bg pull-left text-center">
-              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
-              <h3 class="bold-font">Lakewoods</h3>
-              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
-              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
-              <!--project-infobox--> 
-            </aside>
-            <!--all--> 
-          </li>
-          <li class="all photo webdesign col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <figure><img src="images/projects/project-img3.jpg" alt="" /></figure>
-            <aside class="project-infobox red-bg pull-left text-center">
-              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
-              <h3 class="bold-font">Lakewoods</h3>
-              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
-              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
-              <!--project-infobox--> 
-            </aside>
-            <!--all--> 
-          </li>
-          <li class="all webdesign videos col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <figure><img src="images/projects/project-img4.jpg" alt="" /></figure>
-            <aside class="project-infobox red-bg pull-left text-center">
-              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
-              <h3 class="bold-font">Lakewoods</h3>
-              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
-              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
-              <!--project-infobox--> 
-            </aside>
-            <!--all--> 
-          </li>
-          <li class="all videos Branding col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <figure><img src="images/projects/project-img5.jpg" alt="" /></figure>
-            <aside class="project-infobox red-bg pull-left text-center">
-              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
-              <h3 class="bold-font">Lakewoods</h3>
-              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
-              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
-              <!--project-infobox--> 
-            </aside>
-            <!--all--> 
-          </li>
-          <li class="all photo videos col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <figure><img src="images/projects/project-img6.jpg" alt="" /></figure>
-            <aside class="project-infobox red-bg pull-left text-center">
-              <figure><span><img src="images/projects/project-logo.jpg" alt="" /></span></figure>
-              <h3 class="bold-font">Lakewoods</h3>
-              <p>Curabitur nulla odiog bibendum sit amet facde nl ipsum lobortis id justo donlec sollicdLorem ipsum dolor sit ad et consectetur .</p>
-              <div class="btn-primary btn1 light-font"><a href="work.html">Go to Portfolio <span class="arrow-rt"></span></a></div>
-            </aside>
-          </li>
-        </ul>
+      <?php
+$itemsPerPage = 6;
+
+$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+
+$offset = ($page - 1) * $itemsPerPage;
+
+$items = [];
+
+for ($i = 1; $i <= 76; $i++) {
+    $items[] = [
+        "img" => "images/Image/$i.jpg"
+    ];
+}
+
+$currentItems = array_slice($items, $offset, $itemsPerPage);
+
+$totalPages = ceil(count($items) / $itemsPerPage);
+?>
+
+<ul>
+<?php foreach ($currentItems as $item): ?>
+    <li class="all webdesign Branding col-lg-4 col-md-6 col-sm-6 col-xs-12">
+        <figure><img src="<?php echo $item['img']; ?>" height="300px" width="300px" alt="" /></figure>
+    </li>
+<?php endforeach; ?>
+</ul>
+</div>
+<div class="pagination">
+    <?php if ($page > 1): ?>
+        <a href="?page=<?php echo $page - 1; ?>">Previous</a>
+    <?php endif; ?>
+
+    <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+        <a href="?page=<?php echo $i; ?>" <?php if ($page == $i) echo 'class="active"'; ?>><?php echo $i; ?></a>
+    <?php endfor; ?>
+
+    <?php if ($page < $totalPages): ?>
+        <a href="?page=<?php echo $page + 1; ?>">Next</a>
+    <?php endif; ?>
+</div>
+
+<style>
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+</style>
+
       </div>
     </div>
   </div>
 </div>
             </div>
-            <!--container-->
         </div>
-        <!--padding-outer-->
     </div>
     <?php require 'footer.php' ?>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.12.3.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap/bootstrap.js"></script>
 
-    <!-- Form Submission -->
     <script src="js/form-submission/validate.js"></script>
     <script src="js/form-submission/contact-form.js"></script>
-    <!-- LAZY EFFECTS Scripts -->
     <script type="text/javascript" src="js/jquery.unveilEffects.js"></script>
-    <!-- Filter gallery -->
     <script src="js/projects/isotope.js"></script>
-    <!-- Custom Scripts -->
     <script src="js/custom.js"></script>
-    <!-- Google Map -->
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </body>
 </html>
