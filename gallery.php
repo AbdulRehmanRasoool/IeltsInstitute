@@ -20,7 +20,7 @@
 
 <body class="contact">
     <?php require 'header.php' ?>
-    <div class="sub-banner-con contact-banner col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 100%;">
+    <div class="sub-banner-con contact-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="container">
             <div class="row">
                 <aside class="sub-banner text-center">
@@ -28,7 +28,7 @@
                         <li><a href="#">Home</a></li>
                         <li class="active">Gallery</li>
                     </ol>
-                    <h1 style="margin-bottom: 80px;">Gallery us</h1>
+                    <h1>Gallery us</h1>
                 </aside>
             </div>
         </div>

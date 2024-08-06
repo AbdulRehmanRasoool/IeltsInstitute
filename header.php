@@ -20,7 +20,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <li class="<?php echo ($current_page == 'writingsamples.php') ? 'active' : ''; ?>"><a href="writingsamples.php">Writing Samples</a></li>
                     <li class="<?php echo ($current_page == 'studyabroad.php') ? 'active' : ''; ?>"><a href="studyabroad.php">Study Abroad</a></li>
                     <li class="<?php echo ($current_page == 'courses.php') ? 'active' : ''; ?>"><a href="courses.php">Courses</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
+                    <li class="<?php echo ($current_page == 'gallery.php') ? 'active' : ''; ?>"><a href="gallery.php">gallery</a></li>
                     <li class="<?php echo ($current_page == 'contactus.php') ? 'active' : ''; ?>"><a href="contactus.php">Contact</a></li>
                   </ul>
                   <aside class="social-icons pull-right">
