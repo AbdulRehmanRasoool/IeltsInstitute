@@ -5,7 +5,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
   <div class="container">
     <div class="row">
       <aside class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="logo pull-left"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></div>
+        <div class="logo pull-left"><a href="index.php"><img src="images/Image/logo.png" alt="logo" height="50px" width="200px" /></a></div>
         <nav class="navbar navbar-default pull-right">
           <div class="container-fluid">
             <div class="row"> 
