@@ -2,10 +2,10 @@
 $current_page = basename($_SERVER['PHP_SELF']); 
 ?>
 <div class="greyBg header-con col-lg-12 col-md-12 col-sm-12 col-xs-12">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <aside class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="logo pull-left"><a href="index.php"><img src="images/Image/logo.png" alt="logo" height="50px" width="200px" /></a></div>
+        <div class="logo pull-left"><a href="index.php"><img src="images/Image/logo.png" alt="logo" height="70px" width="200px" style="margin-left:200px;" /></a></div>
         <nav class="navbar navbar-default pull-right">
           <div class="container-fluid">
             <div class="row"> 
@@ -13,7 +13,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <div class="row">
+                <div class="row" style="margin-right:100px;">
                   <ul class="nav navbar-nav">
                     <li class="<?php echo ($current_page == 'index.php') ? 'active' : ''; ?>"><a href="index.php">Home</a></li>
                     <li class="<?php echo ($current_page == 'blogs.php') ? 'active' : ''; ?>"><a href="https://seemaielts.blogspot.com/" target="_blank">Blogs</a></li>
@@ -21,6 +21,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <li class="<?php echo ($current_page == 'studyabroad.php') ? 'active' : ''; ?>"><a href="studyabroad.php">Study Abroad</a></li>
                     <li class="<?php echo ($current_page == 'courses.php') ? 'active' : ''; ?>"><a href="courses.php">Courses</a></li>
                     <li class="<?php echo ($current_page == 'gallery.php') ? 'active' : ''; ?>"><a href="gallery.php">gallery</a></li>
+                    <li class="<?php echo ($current_page == 'Results.php') ? 'active' : ''; ?>"><a href="Results.php">Result</a></li>
                     <li class="<?php echo ($current_page == 'contactus.php') ? 'active' : ''; ?>"><a href="contactus.php">Contact</a></li>
                   </ul>
                   <aside class="social-icons pull-right">

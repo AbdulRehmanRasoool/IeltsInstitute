@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Master</title>
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Seema's IELTS Academy</title>
+    <link rel="icon" href="images/logo.png" width="30px" type="image/png">
     <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
     <!-- Include Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -28,7 +28,7 @@
                         <li><a href="#">Home</a></li>
                         <li class="active">Gallery</li>
                     </ol>
-                    <h1>Gallery us</h1>
+                    <h1>Gallery</h1>
                 </aside>
             </div>
         </div>

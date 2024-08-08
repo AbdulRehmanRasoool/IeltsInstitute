@@ -327,31 +327,9 @@ h2:after {
 	margin: 0 auto 20px;
 }
 .service-box .image-holder.service-icon1 {
-	background: url(../images/services-icon1.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon2 {
-	background: url(../images/services-icon2.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon3 {
-	width: 43px;
-	background: url(../images/services-icon3.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon4 {
-	background: url(../images/services-icon4.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon5 {
-	background: url(../images/services-icon5.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon6 {
-	width: 43px;
-	background: url(../images/services-icon6.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon7 {
-	background: url(../images/services-icon7.png) no-repeat center top;
-}
-.service-box .image-holder.service-icon8 {
-	width:56px;
-	background: url(../images/services-icon8.png) no-repeat center top;
+	background: url(../images/css.png) center top;
+	height: 60px;
+	width: 58px;
 }
 .service-box .hidebox {
 	display: none;
@@ -372,7 +350,7 @@ h2:after {
 .service-innerbox .image-holder {
 	margin: 0 0 20px
 }
-.service-box:hover .image-holder.service-icon1,.services-details .service-icon1 {
+/* .service-box:hover .image-holder.service-icon1,.services-details .service-icon1 {
 	background: url(../images/services-icon1.png) no-repeat left bottom;
 }
 .service-box:hover .image-holder.service-icon2,.services-details .service-icon2 {
@@ -400,7 +378,7 @@ h2:after {
 }
 .services-details .service-icon9 {
 	background: url(../images/services-icon9.png) no-repeat left bottom;
-}
+} */
 .service-innerbox h3 {
 	color: #fff;
 	padding: 0 0 8px;
@@ -415,13 +393,6 @@ h2:after {
 	width: 42px;
 	position: absolute;
 	background-color: #fff;
-}
-.service-innerbox .readmore a {
-	width: 15px;
-	height: 11px;
-	display: block;
-	margin: 30px 0 0 -23px;
-	background: url(../images/arrows.png) no-repeat right top;
 }
 /**********************************/
 /************WHO WE ARE************/
