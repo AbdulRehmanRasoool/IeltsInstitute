@@ -15,7 +15,7 @@
 <body class="carousel-elements">
     <?php require 'loader.php' ?>
     <?php require 'header.php' ?>
-    <div class="sub-banner-con2 black-bg col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="sub-banner-con2 black-bg col-lg-12 col-md-12 col-sm-12 col-xs-12" style="z-index: 2;">
         <div class="container">
             <div class="row">
                 <aside class="sub-banner text-center">

@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <style>
+            .description{
+                color: black;
+            }
+        </style>
 </head>
 
 <body class="contact">
@@ -33,7 +38,7 @@
 
     </div>
     <div class="container">
-        <div class="heading" style="text-align: center;margin:480px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:75px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
             Study In Uk
         </div>
         <div class="description" style="line-height: 30px;">

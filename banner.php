@@ -10,7 +10,7 @@
             <div class="btn-primary btn1"><a href="contactus.php">Contact Us <img src="images/arrow-white-right.png" alt="" /></a></div>
           </div>
         </div>
-        <figure class="banner-img pull-right"><img src="images/banners/home-banner.png" height="750px" alt="" /></figure>
+        <figure class="banner-img pull-right"><img src="images/banners/home-banner.png"/></figure>
       </aside>
     </div>
   </div>

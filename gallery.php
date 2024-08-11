@@ -51,7 +51,7 @@ $offset = ($page - 1) * $itemsPerPage;
 
 $items = [];
 
-for ($i = 1; $i <= 76; $i++) {
+for ($i = 1; $i <= 197; $i++) {
     $items[] = [
         "img" => "images/Image/$i.jpg"
     ];
@@ -90,6 +90,7 @@ $totalPages = ceil(count($items) / $itemsPerPage);
     padding: 5px 10px;
     border: 1px solid #ccc;
     text-decoration: none;
+    line-height: 40px;
 }
 
 .pagination a.active {

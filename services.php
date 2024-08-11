@@ -3,13 +3,13 @@
     <div class="row text-center">
       <h2>our services</h2>
       <div class="spacer"></div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <aside class="service-box">
               <div>
                 <figure class="image-holder service-icon1"></figure>
-                <h3>CSS/PCS</h3>
+                <h3>Coaching Center</h3>
                 <p>6 Months</p>
               </div>
             </aside>
@@ -25,7 +25,7 @@
           </div> 
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <aside class="service-box">
@@ -46,7 +46,7 @@
           </div> 
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <aside class="service-box">
@@ -65,31 +65,6 @@
             </aside>
           </div> 
         </div>
-      </div>
-     
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <aside class="service-box">
-              <div>
-                <figure class="image-holder service-icon1"></figure>
-                <h3>Branding Design</h3>
-              </div>
-            </aside>
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <aside class="service-box service-box2">
-              <div>
-                <figure class="image-holder service-icon1"></figure>
-                <h3>Illustration</h3>
-              </div>
-              <!--service-box--> 
-            </aside>
-            <!--col--> 
-          </div>
-          <!--row--> 
-        </div>
-        <!--col--> 
       </div>
     </div>
   </div>

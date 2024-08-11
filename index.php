@@ -19,6 +19,7 @@
   <?php require 'whychooseus.php' ?>
   <?php require 'skills.php' ?>
   <?php require 'testemonials.php' ?>
+  <?php require 'affiliated.php' ?>
   <?php require 'footer.php' ?>
 
 <script src="js/jquery-1.12.3.min.js"></script> 

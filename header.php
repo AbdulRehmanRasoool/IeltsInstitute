@@ -1,7 +1,7 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']); 
 ?>
-<div class="greyBg header-con col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="greyBg header-con col-lg-12 col-md-12 col-sm-12 col-xs-12" style="z-index: 4;">
   <div class="container-fluid">
     <div class="row">
       <aside class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">

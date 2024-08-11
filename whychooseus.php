@@ -7,7 +7,7 @@
      <div class="row"> 
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-star pull-left red-bg"></figure>
-      <h3><span>100% customer satisfaction guarantee.</span></h3>
+      <h3><span>100% Student Success Guarantee</span></h3>
      <!--choose-box-->
      </aside>
   <!--row--> 
@@ -18,7 +18,7 @@
     <div class="row">
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-money pull-left red-bg"></figure>
-      <h3><span>Our Prices are very<br> Affoardable.</span></h3>
+      <h3><span>Affordable Course Fees</span></h3>
      <!--choose-box-->
      </aside>    
   <!--row--> 
@@ -29,7 +29,7 @@
      <div class="row">
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-rocket pull-left red-bg"></figure>
-      <h3><span>Fast turnaround time<br> guaranteed.</span></h3>
+      <h3><span>Fast Track Learning</span></h3>
      <!--choose-box-->
      </aside>
   <!--row--> 
@@ -41,7 +41,7 @@
     <div class="row">
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-thumbs-up pull-left red-bg"></figure>
-      <h3><span>We don't use templates.</span></h3>
+      <h3><span>Customized Study Plans</span></h3>
      <!--choose-box-->
      </aside>    
   <!--row--> 
@@ -52,7 +52,7 @@
     <div class="row">
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-file pull-left red-bg"></figure>
-      <h3><span>We provide all source<br>files to customer.</span></h3>
+      <h3><span>Access to All Study Materials</span></h3>
      <!--choose-box-->
      </aside>    
   </div>
@@ -61,7 +61,7 @@
     <div class="row">
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-coffee pull-left red-bg"></figure>
-      <h3><span>We always start design<br>from scratch.</span></h3>
+      <h3><span>Personalized Instruction</span></h3>
      </aside>    
   </div>
     </div>
