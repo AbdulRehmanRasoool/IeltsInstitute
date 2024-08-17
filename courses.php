@@ -38,7 +38,7 @@
 
     </div>
     <div class="container">
-        <div class="heading" style="text-align: center;margin:75px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:75px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;line-height:40px;">
         IELTS General Training
         </div>
         <div class="description" style="line-height: 30px;">
@@ -48,7 +48,7 @@
                 </p>
         </div>
 
-        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;line-height:40px;">
         IELTS Academic Training        </div>
         <div class="description" style="line-height: 30px;">
             <p>
@@ -56,7 +56,7 @@
                 </p>
         </div>
 
-        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;line-height:40px;">
         IELTS UKVI (Academic & General)        </div>
         <div class="description" style="line-height: 30px;">
             <p>
@@ -117,21 +117,21 @@
             <p>
             The Graduate Management Admission Test (GMAT) is a critical component for admission to business schools. Our GMAT preparation course focuses on quantitative, verbal, and integrated reasoning skills, providing practice exams and strategies to maximize your test performance.                </p>
         </div>
-        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;line-height:40px;">
         IBA Test Preparation        
         </div>
         <div class="description" style="line-height: 30px;">
             <p>
             The Institute of Business Administration (IBA) test is a key requirement for admission to IBA programs. This preparation course covers verbal and quantitative skills, offering practice tests and personalized guidance to help you succeed in the IBA admissions process.                </p>
         </div>
-        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;line-height:40px;">
         English Language        
         </div>
         <div class="description" style="line-height: 30px;">
             <p>
             Our English Language course is designed for learners of all levels, from beginners to advanced. The course focuses on grammar, vocabulary, pronunciation, and conversational skills, helping you achieve fluency and confidence in English for academic, professional, or personal use.                </p>
         </div>
-        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;">
+        <div class="heading" style="text-align: center;margin:80px 0px 20px 0px;font-weight: 800;font-size: 30px;color:#c13c3c;line-height:40px;">
         Chinese Language        
         </div>
         <div class="description" style="line-height: 30px;">

@@ -40,7 +40,7 @@
                       <li style="padding-left:10px"><a href="https://www.blogger.com/blog/posts/6286256394388843629" target="Blank"><i class="fas fa-blog"></i></a></li>
               </ul>
             </aside>
-          </div><i class="fa-brands fa-blogger-b"></i>
+          </div>
         </aside>
       </div>
     </footer>

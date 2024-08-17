@@ -7,7 +7,7 @@
      <div class="row"> 
      <aside class="choose-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <figure class="fa fa-star pull-left red-bg"></figure>
-      <h3><span>100% Student Success Guarantee</span></h3>
+      <h3><span>Proven success record</span></h3>
      <!--choose-box-->
      </aside>
   <!--row--> 

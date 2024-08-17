@@ -10,6 +10,34 @@
     <link rel="stylesheet" href="css/all-stylesheets.css" type="text/css" />
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <style>
+            @media screen and (max-width: 1000px) {
+            .left {
+                left: 45%!important;
+            }
+            .right{
+                right: 45%!important;
+            }
+        }     
+        
+        @media screen and (max-width: 700px) {
+            .left {
+                left: 45%!important;
+            }
+            .right{
+                right: 45%!important;
+            }
+        }  
+
+        @media screen and (max-width: 500px) {
+            .left {
+                left: 45%!important;
+            }
+            .right{
+                right: 45%!important;
+            }
+        } 
+        </style>
 </head>
 
 <body class="carousel-elements">
@@ -43,31 +71,28 @@
                         <h4 style="font-weight: 600;">Dr. Summaya Dossa</h4>
                         <h4 style="font-weight: bold;color: #c13c3c;padding-top:10px;">Band Score: 7.5</h4>
                         <p style="text-align: left;line-height:26px;">Dear sir,
-                            <br /><br />
+                            <br />
 
                             I am writing in connection with the advertisement published in the local newspaper by your hospital management. I would like to mention that I am keenly interested in extending my voluntary services to the hospital.
 
-                            <br />
                             <br />
 
                             I believe it is important for me to shed light on the reason of me being interested in the opportunity. I consider voluntary services as golden chance not just to serve the organization but also to polish one's personal and professional skills. This is the primary reason for my keen interest in serving your hospital.
 
                             <br />
-                            <br />
 
                             Adding up to your knowledge, I would mention that I have been working as a board member in a renowned non-profit and non- governmental organization for four year. My chief responsibility included organization of various educational program and publicity of projects of the organization for the purpose of fund raising. Therefore, I am inclined towards participating in activities of similar nature in your hospital, too. I am found of the idea of comparing and discriminating a newsletter from the hospital's platform, which will not just create awareness among people about your health related endeavor but may also be a source of fund raising.
 
                             <br />
-                            <br />
 
                             Having been responsible for activities in an other charity organizations, as I mentioned above, I would unfortunately not be available for service throughout the week. Nevertheless, I am mostly free on weekends when I can put in my efforts for the development of your hospital.
 
-                            <br /><br />
+                            <br />
 
                             I am looking forward to your kind response.
-                            <br /><br />
+                            <br />
                             Yours faithfully,
-                            <br /><br />
+                            <br />
                             Dr. Summaya Dossa
                         </p>
                     </div>
@@ -79,35 +104,32 @@
                         <h4 style="font-weight: bold;color: #c13c3c;padding-top:10px;">Band Score: 7.5</h4>
                         <p style="text-align: left;line-height:26px;">Dear sir / Madam,
 
-                            <br /><br />
+                            <br />
 
                             I am writing this letter to express my desire to work as a volunteer in your hospital. I came to know about charity work at your hospital by reading an advert in the newspaper.
 
 
-                            <br />
                             <br />
 
                             Being a doctor, I respect humanity and want to serve mankind. Currently, I work in a tertiary hospital and earn sufficient wages. I was willing to treat patients without any monetary rewards in order to help the poverty-stricken. To achieve inner satisfaction, I ought to work without pay.
 
 
                             <br />
-                            <br />
 
                             Having good experience in emergency department, I would be able to render my services in critical care department and also assist a surgeon in applying sutures. Moreover, I can easily run the outpatient department.
 
 
                             <br />
-                            <br />
 
                             Since my job timings are from 8 am in the morning till 2 pm in the afternoon. I can easily arrive your hospital in the evening after 4 pm I can serve for 4-5 hours which will be quite satisfying for me.
 
 
-                            <br /><br />
+                            <br />
 
                             I trust to receive a positive feedback from you. 
-                            <br /><br />
+                            <br />
                             Yours faithfully,
-                            <br /><br />
+                            <br />
                             Dr. Ifirah Sultana  
                             </p>
                     </div>
@@ -118,29 +140,26 @@
                         <h4 style="font-weight: bold;color: #c13c3c;padding-top:10px;">Band Score: 7.0</h4>
                         <p style="text-align: left;line-height:26px;">Dear Ms Rose,
 
-                            <br /><br />
+                            <br />
 
                             I am writing to thank you for the lost blue Gucci handbag you couriered to my house address on 15th of March.
 
-                            <br />
                             <br />
 
                             Fortunately, it was your cafe near the airport where I forgot my bag. Actually, I had decided to relax with a cup of coffee few minutes before my plane took off. Had I realized my mistake even few minutes before boarding, I would have surely come back for it. I cannot begin to express how delighted I was to have received it within one week of losing it.
 
                             <br />
-                            <br />
 
                             Needless to say, this bag holds great sentimental value for me because it is a gift from my late grandmother on my 20th birthday. Even though she is no longer with me, this present makes me feel otherwise. That is why it is very precious to me. Now I hope you must have understood why it is the most valuable thing I own. Had I not found it, it would have been the greatest loss of my life.
 
                             <br />
-                            <br />
 
                             Please allow me to express how grateful I am by accepting this wristwatch as a token of my appreciation. 
 
-                            <br /><br />
+                            <br />
 
                             kind regards
-                            <br /><br />
+                            <br />
                             Razia                         </p>
                     </div>
                 </div>
@@ -151,31 +170,28 @@
                         <h4 style="font-weight: bold;color: #c13c3c;padding-top:10px;">Band Score: 7.0</h4>
                         <p style="text-align: left;line-height:26px;">Dear Mr. Brown,
 
-                            <br /><br />
+                            <br />
 
                             I am writing this latter to acknowledge you that I cannot continue my work as a volunteer in your non profit organization.
 
-                            <br />
                             <br />
 
                             Being a volunteer, I have been preforming my duties as a teacher for the last two years. As you you know that I used to teach under privileged students of my locality. I am so fortunate to have availed the opportunity of working with you and put some efforts in educating needy people. One of my responsibilities as a tutor is to teach the life skills along with education in order to shape them a good human.
 
                             <br />
-                            <br />
 
                             Although I love my job wholeheartedly, I have to quit it in order to get higher education so as to complete my Msc, I am moving to Australia as I got admission over there so I am not able to being a part of your charitable organization any longer.
 
                             <br />
-                            <br />
 
                             Furthermore, I would like to inform you that one of my friends is willing to do this work in place of me. He has an excellent teaching skill as he has done bachelor’s in education. I am sending his resume to you. I hope you will surely give him this opportunity to do this kind dead. 
 
-                            <br /><br />
+                            <br />
 
                             looking forward to hearing from you. 
-                            <br /><br />
+                            <br />
                             yours sincerely 
-                            <br /><br />
+                            <br />
                             Lina                         </p>
                     </div>
                 </div>
@@ -186,34 +202,31 @@
                         <h4 style="font-weight: bold;color: #c13c3c;padding-top:10px;">Band Score: 7.0</h4>
                         <p style="text-align: left;line-height:26px;">Dear Mohsin,
 
-                            <br /><br />
+                            <br />
 
                             I hope this letter will find you and your family in the best of health and happiness. I may visit you In a couple of months as I am arriving inn Canada this spring for my MBA course with university of Waterloo.
 
-                            <br />
                             <br />
 
                             I have been enrolled in 5 semester MBA course with finance as major subject the duration of study would be around two and a half years. As I will bring my family along and have already arranged accommodation in y sister's house. I am quite relieved of this major issue / however, for this lengthy study that kay take three years to complete I require a part tie job l this is the area where I need your help, frankly . A part time employment is vital for getting by as I have young children who need full time look after by her mother.
 
                             <br />
-                            <br />
 
                             You know that I am quite proficient I word processor using spread sheet program like MS excel and database and web page designing I have Microsoft certificates mentioned in my CV a copy of which accompanies This letter. As we have worked together in Saudi Arabia you also know my attitude towards the job I hope that not only you would help locate a suitable three to four hours office job in the afternoon (from 4 pm onward) on working days but also you will recommend me personally to some of your acquaintances. 
 
                             <br />
-                            <br />
 
                             see you soon!
 
-                            <br /><br />
+                            <br />
 
                             Lots of love!
-                            <br /><br />
+                            <br />
                             Wasi                        </p>
                     </div>
                 </div>
             </div>
-            <a class="left carousel-control" href="#myCarouselV" data-slide="prev"> <span class="icon-prev"></span> </a> <a class="right carousel-control" href="#myCarouselV" data-slide="next"> <span class="icon-next"></span> </a>
+            <a class="left carousel-control" href="#myCarouselV" data-slide="prev" style="left: 47%;"> <span class="icon-prev"></span> </a> <a class="right carousel-control" href="#myCarouselV" data-slide="next" style="right: 47%;"> <span class="icon-next"></span> </a>
         </div>
     </div>
 

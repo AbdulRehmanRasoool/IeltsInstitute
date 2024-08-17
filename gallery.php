@@ -39,7 +39,7 @@
               
 <div class="padding-outer portfolio-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
   <div class="row text-center">
-    <h2>beautiful &amp; useful portfolio</h2>
+    <h2> Events at a glance</h2>
     <div id="gallery-content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div id="gallery-content-center">
       <?php
@@ -51,7 +51,7 @@ $offset = ($page - 1) * $itemsPerPage;
 
 $items = [];
 
-for ($i = 1; $i <= 197; $i++) {
+for ($i = 1; $i <= 67; $i++) {
     $items[] = [
         "img" => "images/Image/$i.jpg"
     ];
